@@ -9,7 +9,7 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\worker\command;
+namespace shiyun\worker\command;
 
 use think\console\Command;
 use think\console\Input;
@@ -18,7 +18,7 @@ use think\console\input\Option;
 use think\console\Output;
 use think\facade\App;
 use think\facade\Config;
-use think\worker\Http as HttpServer;
+use shiyun\worker\Http as HttpServer;
 
 /**
  * Worker 命令行类

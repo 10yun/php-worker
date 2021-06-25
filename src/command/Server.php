@@ -1,15 +1,6 @@
 <?php
-// +----------------------------------------------------------------------
-// | ThinkPHP [ WE CAN DO IT JUST THINK IT ]
-// +----------------------------------------------------------------------
-// | Copyright (c) 2006-2018 http://thinkphp.cn All rights reserved.
-// +----------------------------------------------------------------------
-// | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
-// +----------------------------------------------------------------------
-// | Author: liu21st <liu21st@gmail.com>
-// +----------------------------------------------------------------------
 
-namespace think\worker\command;
+namespace shiyun\worker\command;
 
 use think\console\Command;
 use think\console\Input;
@@ -18,7 +9,7 @@ use think\console\input\Option;
 use think\console\Output;
 use think\facade\App;
 use think\facade\Config;
-use think\worker\Server as WorkerServer;
+use shiyun\worker\Server as WorkerServer;
 use Workerman\Worker;
 
 /**
