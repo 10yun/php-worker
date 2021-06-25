@@ -1,0 +1,24 @@
+{
+    "name": "shiyun/php-worker",
+    "description": "php worker for shiyun",
+    "version": "1.0.0",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "ctocode",
+            "email": "343196936@qq.com"
+        }
+    ],
+    "require": {
+        "workerman/workerman": "^3.5.23",
+        "workerman/gateway-worker": "^3.0.0",
+        "topthink/framework": "^6.0.0",
+        "ext-fileinfo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "shiyun\\worker\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
