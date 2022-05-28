@@ -1,17 +1,23 @@
 {
     "name": "shiyun/php-worker",
-    "description": "php worker for shiyun",
+    "description": "php worker for shiyun，workerman的一些二次封装",
     "version": "1.0.0",
     "license": "Apache-2.0",
     "authors": [
         {
             "name": "ctocode",
             "email": "343196936@qq.com"
+        },
+        {
+            "name": "十云",
+            "email": "syky@10yun.com"
         }
     ],
     "require": {
-        "workerman/workerman": "^3.5.23",
-        "workerman/gateway-worker": "^3.0.0",
+        "workerman/workerman": "^4.0.37",
+        "workerman/gateway-worker": "^3.0.22",
+        "workerman/gatewayclient": "^3.0.14",
+        "workerman/mysql": "^1.0",
         "topthink/framework": "^6.0.0",
         "ext-fileinfo": "*"
     },
